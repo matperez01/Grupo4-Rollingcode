@@ -9,7 +9,8 @@
 
 //? 4.- Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga «Hola nombreUsuario»
 // Ejemplo: 
-
+let Coder = prompt("ingrese nombre de usuario");
+document.write(`hola ${Coder}`);
 // input: Coder 
 // Output: Hola Coder
 
