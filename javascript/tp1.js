@@ -94,6 +94,23 @@
 
 // Dificultad:  🟢🟡
 
+// let number = prompt("Ingrese un numero");
+
+// if (isNaN(number)) {
+//   console.warn("El valor ingresado NO es un numero");
+// } else {
+//   if (
+//     number % 2 === 0 ||
+//     number % 3 === 0 ||
+//     number % 5 === 0 ||
+//     number % 7 === 0
+//   ) {
+//     console.log(`El numero ${number} es divisible por 2, 3, 5 o 7.`);
+//   } else {
+//     console.log(`El numero ${number} NO es divisible por 2, 3, 5 o 7.`);
+//   }
+// }
+
 //? 11.- Añadir al ejercicio anterior que nos diga por cuál de los cuatro es divisible (hay que decir todos por los que es divisible)
 // Ejemplo:
 
