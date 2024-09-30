@@ -8,9 +8,9 @@
 // Dificultad:  🟢
 
 //? 4.- Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga «Hola nombreUsuario»
-// Ejemplo: 
+// Ejemplo:
 
-// input: Coder 
+// input: Coder
 // Output: Hola Coder
 
 // Dificultad:  🟢
@@ -21,15 +21,23 @@
 // Dificultad:  🟢
 
 //? Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
-// Ejemplo: 
+// Ejemplo:
 
 // input: 15 , 3
 // Output: El 15 es el número más grande
 
 // Dificultad:  🟢
 
+// let numero1 = prompt("Escriba un numero del 1 al 10:");
+// let numero2 = prompt("Escriba otro numero del 1 al 10:");
+// if (numero1 > numero2) {
+//   document.write(`El mayor de estos dos numeros es: ${numero1}`);
+// } else {
+//   document.write(`El mayor de estos dos numeros es: ${numero2}`);
+// }
+
 //? 7.- Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
-// Ejemplo: 
+// Ejemplo:
 
 // input: 15 , 3, 9
 // Output: El 15 es el número más grande
@@ -37,21 +45,18 @@
 // Dificultad:  🟢
 
 //? 8.- Escribe un programa que pida un número y diga si es divisible por 2
-// Ejemplo: 
+// Ejemplo:
 
 // input: 10
 // input: 15
 // Output: El 10 es divisible por 2.
 // Output: El 15 no es divisible por 2.
 
-
-
-// Dificultad:  🟢🟡 
+// Dificultad:  🟢🟡
 
 //? 9.- Escribe un programa que pida una frase y escriba las vocales que aparecen
 // Nota: Tener en cuenta la función length y substring o charAt (developer mozilla)
 // Ejemplo:
-
 
 // input: Hola mundo
 // Output: oauo
@@ -59,7 +64,7 @@
 // Dificultad:  🟢🟡
 
 //? 10.- Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
-// Ejemplo: 
+// Ejemplo:
 
 // input: 20
 // Output: El 20 es divisible por 2.
@@ -67,14 +72,9 @@
 // Dificultad:  🟢🟡
 
 //? 11.- Añadir al ejercicio anterior que nos diga por cuál de los cuatro es divisible (hay que decir todos por los que es divisible)
-// Ejemplo: 
+// Ejemplo:
 
 // input: 20
 // input: 210
 // Output: El 20 es divisible por 2 y por 5.
 // Output: El 210 es divisible por 2, por 3, por 5 y por 7.
-
-
-
-
-
