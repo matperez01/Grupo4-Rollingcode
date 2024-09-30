@@ -24,6 +24,9 @@ document.write(`hola ${Coder}`);
 // Nota: Tener en cuenta la siguiente función: parseInt
 // https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/parseInt
 // Dificultad:  🟢
+let num1 = parseInt(prompt("Introduce el primer número:"));
+let num2 = parseInt(prompt("Introduce el segundo número:"));
+document.write(`El resultado de la suma es: ${num1 + num2}`);
 
 //? Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
 // Ejemplo:
