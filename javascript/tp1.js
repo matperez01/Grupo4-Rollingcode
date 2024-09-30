@@ -44,6 +44,17 @@
 
 // Dificultad:  🟢
 
+// let number1 = prompt("Escribe un numero del 1 al 10:");
+// let number2 = prompt("Escribe otro numero del 1 al 10:");
+// let number3 = prompt("Escribe uno mas:");
+// if (number1 > number2 && number1 > number3) {
+//   document.write(`El mayor de estos numeros es: ${number1}`);
+// } else if (number2 > number3) {
+//   document.write(`El mayor de estos numeros es: ${number2}`);
+// } else {
+//   document.write(`El mayor de estos numeros es: ${number3}`);
+// }
+
 //? 8.- Escribe un programa que pida un número y diga si es divisible por 2
 // Ejemplo:
 
