@@ -118,3 +118,33 @@
 // input: 210
 // Output: El 20 es divisible por 2 y por 5.
 // Output: El 210 es divisible por 2, por 3, por 5 y por 7.
+
+// let divisibleNumero = prompt("Ingrese un numero");
+
+// if (isNaN(divisibleNumero)) {
+//   console.warn("El valor ingresado NO es un numero");
+// } else {
+//   if (
+//     divisibleNumero % 2 === 0 ||
+//     divisibleNumero % 3 === 0 ||
+//     divisibleNumero % 5 === 0 ||
+//     divisibleNumero % 7 === 0
+//   ) {
+//     if (divisibleNumero % 2 === 0) {
+//       console.log(`El numero ${divisibleNumero} es divisible por 2`);
+//     }
+//     if (divisibleNumero % 3 === 0) {
+//       console.log(`El numero ${divisibleNumero} es divisible por 3`);
+//     }
+//     if (divisibleNumero % 5 === 0) {
+//       console.log(`El numero ${divisibleNumero} es divisible por 5`);
+//     }
+//     if (divisibleNumero % 7 === 0) {
+//       console.log(`El numero ${divisibleNumero} es divisible por 7`);
+//     }
+//   } else {
+//     console.log(
+//       `El numero ${divisibleNumero} NO es divisible por 2, 3, 5 o 7.`
+//     );
+//   }
+// }
