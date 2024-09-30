@@ -65,6 +65,18 @@
 
 // Dificultad:  🟢🟡
 
+// let numeroDivisible = prompt("Ingrese un numero");
+
+// if (isNaN(numeroDivisible)) {
+//   console.warn("El valor ingresado NO es un numero");
+// } else {
+//   if (numeroDivisible % 2 === 0) {
+//     console.log(`el numero ${numeroDivisible} es divisible por 2`);
+//   } else {
+//     console.log(`el numero ${numeroDivisible} no es divisible por 2`);
+//   }
+// }
+
 //? 9.- Escribe un programa que pida una frase y escriba las vocales que aparecen
 // Nota: Tener en cuenta la función length y substring o charAt (developer mozilla)
 // Ejemplo:
