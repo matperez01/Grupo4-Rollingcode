@@ -13,32 +13,33 @@
 
 //? 4.- Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga «Hola nombreUsuario»
 // Ejemplo:
-let Coder = prompt("ingrese nombre de usuario");
-document.write(`hola ${Coder}`);
+// let Coder = prompt("ingrese nombre de usuario");
+// document.write(`hola ${Coder}`);
 // input: Coder
 // Output: Hola Coder
-
+//! resuelto
 // Dificultad:  🟢
 
 //? 5.- Escribe un programa de tres líneas que pida un número, pida otro número y escriba el resultado de sumar estos dos números.
 // Nota: Tener en cuenta la siguiente función: parseInt
 // https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/parseInt
 // Dificultad:  🟢
-let num1 = parseInt(prompt("Introduce el primer número:"));
-let num2 = parseInt(prompt("Introduce el segundo número:"));
-document.write(`El resultado de la suma es: ${num1 + num2}`);
+// let num1 = parseInt(prompt("Introduce el primer número:"));
+// let num2 = parseInt(prompt("Introduce el segundo número:"));
+// document.write(`El resultado de la suma es: ${num1 + num2}`);
+//! resuelto
 
-//? Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
+//? 6 Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
 // Ejemplo: 
-let tato = parseInt(prompt("ingrese el primer nemro"));
-let tota = parseInt(prompt("ingrese el segundo numero"));
-if (tato > tota){
-    console.log(`${tato} es mayor que ${tota}`);
+// let tato = parseInt(prompt("ingrese el primer nemro"));
+// let tota = parseInt(prompt("ingrese el segundo numero"));
+// if (tato > tota){
+//     console.log(`${tato} es mayor que ${tota}`);
     
-} else {
-    console.log(`${tota} es mayor que ${tato}`);
+// } else {
+//     console.log(`${tota} es mayor que ${tato}`);
     
-}
+// }
 
 // input: 15 , 3
 // Output: El 15 es el número más grande
@@ -52,25 +53,49 @@ if (tato > tota){
 // } else {
 //   document.write(`El mayor de estos dos numeros es: ${numero2}`);
 // }
-
+//! resuelto
 //? 7.- Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
+// Dificultad:  🟢
 // Ejemplo: 
-
 // input: 15 , 3, 9
 // Output: El 15 es el número más grande
 
-// Dificultad:  🟢
+// let nume1 = parseInt(prompt("ingrese el primer numero"));
+// let nume2 = parseInt(prompt("ingrese el segundo numero"));
+// let nume3 = parseInt(prompt("ingrese el tercer numero"));
+
+// if (nume1 > nume2 && nume1 > nume3) {
+//    console.log(`El ${nume1} es el mayor`);
+   
+       
+// } else if (nume2 > nume1 && nume2 > nume3) {
+//     console.log(`El ${nume2} es el mayor`);
+    
+// }
+// else {
+//     console.log(`El ${nume3} el el mayor`);
+    
+// }
+//! resuelto
 
 //? 8.- Escribe un programa que pida un número y diga si es divisible por 2
 // Ejemplo: 
-
 // input: 10
 // input: 15
 // Output: El 10 es divisible por 2.
 // Output: El 15 no es divisible por 2.
 
 
-
+let num1 = parseInt(prompt("Escriba un numero q sea divisible por 2"));
+let div = (num1 % 2)
+if ( div == 0) {
+    console.log(`El ${num1} si es divisible por 2`);
+    
+} else{
+    console.log("no es divisible");
+    
+}
+//! resuelto
 // Dificultad:  🟢🟡 
 
 //? 9.- Escribe un programa que pida una frase y escriba las vocales que aparecen
