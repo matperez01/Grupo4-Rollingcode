@@ -1,16 +1,21 @@
 //? 1.- Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “un mensaje”.
 // Dificultad:  🟢
+//! solucion----------------------------------
+// alert("Precaucíon!!!");
 
 //? 2.- Escribe un programa de una sola línea que escriba en la pantalla un texto que diga «Hello World» (document.write).
 // Dificultad:  🟢
+// document.write("Hello World");
 
 //? 3.- Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.
 // Dificultad:  🟢
+// document.write(3 + 5);
 
 //? 4.- Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga «Hola nombreUsuario»
 // Ejemplo:
-
-// input: Coder 
+let Coder = prompt("ingrese nombre de usuario");
+document.write(`hola ${Coder}`);
+// input: Coder
 // Output: Hola Coder
 
 // Dificultad:  🟢
@@ -19,7 +24,9 @@
 // Nota: Tener en cuenta la siguiente función: parseInt
 // https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/parseInt
 // Dificultad:  🟢
-
+let num1 = parseInt(prompt("Introduce el primer número:"));
+let num2 = parseInt(prompt("Introduce el segundo número:"));
+document.write(`El resultado de la suma es: ${num1 + num2}`);
 //? Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
 // Ejemplo: 
 
