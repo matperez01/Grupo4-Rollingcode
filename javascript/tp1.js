@@ -27,8 +27,18 @@ document.write(`hola ${Coder}`);
 let num1 = parseInt(prompt("Introduce el primer número:"));
 let num2 = parseInt(prompt("Introduce el segundo número:"));
 document.write(`El resultado de la suma es: ${num1 + num2}`);
+
 //? Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
 // Ejemplo: 
+let tato = parseInt(prompt("ingrese el primer nemro"));
+let tota = parseInt(prompt("ingrese el segundo numero"));
+if (tato > tota){
+    console.log(`${tato} es mayor que ${tota}`);
+    
+} else {
+    console.log(`${tota} es mayor que ${tato}`);
+    
+}
 
 // input: 15 , 3
 // Output: El 15 es el número más grande
