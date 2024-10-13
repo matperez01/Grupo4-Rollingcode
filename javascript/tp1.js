@@ -13,8 +13,8 @@
 
 //? 4.- Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga «Hola nombreUsuario»
 // Ejemplo:
-let Coder = prompt("ingrese nombre de usuario");
-document.write(`hola ${Coder}`);
+// let Coder = prompt("ingrese nombre de usuario");
+// document.write(`hola ${Coder}`);
 // input: Coder
 // Output: Hola Coder
 
@@ -24,21 +24,21 @@ document.write(`hola ${Coder}`);
 // Nota: Tener en cuenta la siguiente función: parseInt
 // https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/parseInt
 // Dificultad:  🟢
-let num1 = parseInt(prompt("Introduce el primer número:"));
-let num2 = parseInt(prompt("Introduce el segundo número:"));
-document.write(`El resultado de la suma es: ${num1 + num2}`);
+// let num1 = parseInt(prompt("Introduce el primer número:"));
+// let num2 = parseInt(prompt("Introduce el segundo número:"));
+// document.write(`El resultado de la suma es: ${num1 + num2}`);
 
-//? Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
-// Ejemplo: 
-let tato = parseInt(prompt("ingrese el primer nemro"));
-let tota = parseInt(prompt("ingrese el segundo numero"));
-if (tato > tota){
-    console.log(`${tato} es mayor que ${tota}`);
+// //? Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
+// // Ejemplo: 
+// let tato = parseInt(prompt("ingrese el primer nemro"));
+// let tota = parseInt(prompt("ingrese el segundo numero"));
+// if (tato > tota){
+//     console.log(`${tato} es mayor que ${tota}`);
     
-} else {
-    console.log(`${tota} es mayor que ${tato}`);
+// } else {
+//     console.log(`${tota} es mayor que ${tato}`);
     
-}
+// }
 
 // input: 15 , 3
 // Output: El 15 es el número más grande
@@ -76,10 +76,20 @@ if (tato > tota){
 //? 9.- Escribe un programa que pida una frase y escriba las vocales que aparecen
 // Nota: Tener en cuenta la función length y substring o charAt (developer mozilla)
 // Ejemplo:
-
-
 // input: Hola mundo
 // Output: oauo
+let frase = prompt("Introduce una frase:").toLowerCase();
+let vocales = "";
+
+for (let i = 0; i < frase.length; i++) {
+  let caracter = frase.charAt(i);
+  if ("aeiou".includes(caracter)) {
+    vocales += caracter + ", ";
+  }
+}
+
+console.log(`Las vocales en la frase son: ${vocales}` );
+
 
 // Dificultad:  🟢🟡
 
