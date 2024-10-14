@@ -62,8 +62,8 @@ let nota = parseInt(prompt("ingrese un numero entre 0 y 10"));
         } else {
             alert("Introduce un número válido");
         
-        }
-    } while (confirm("¿Desea continuar?"));
+        } 
+} while (confirm("¿Desea continuar?"));
 //!---------------------------------------------------------------------------------------------------------------------------------------------
 // Dificultad:  🟢🟡
  
@@ -178,5 +178,3 @@ let nota = parseInt(prompt("ingrese un numero entre 0 y 10"));
 // Input: Hola mundo
 
 // Output: la vocal ‘o’ está en la posición 1
-
-
