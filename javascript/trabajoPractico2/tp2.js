@@ -27,47 +27,58 @@
 
 
 
-do{
-let nota = parseInt(prompt("ingrese un numero entre 0 y 10"));
+// do{
+// let nota = parseInt(prompt("ingrese un numero entre 0 y 10"));
 
-    if (!isNaN(nota)){
+//     if (!isNaN(nota)){
 
-        switch (nota) {
-            case 0:
-                case 1:
-                case 2:
-                    alert("Muy deficiente");
-                    break;
-            case 3:
-                case 4:
-                    alert("Insuficiente");
-                    break;
-            case 5:
-                case 6:
-                    alert("Suficiente");
-                    break;
-            case 7:
-                case 8:
-                    alert("Bien");
-                    break;
-            case 9:
-                alert("Notable");
-                break;
-            case 10:
-                alert("Sobresaliente");
-                break;
-            default:
-                alert("Número erróneo");                                               
-        }
-        } else {
-            alert("Introduce un número válido");
+//         switch (nota) {
+//             case 0:
+//                 case 1:
+//                 case 2:
+//                     alert("Muy deficiente");
+//                     break;
+//             case 3:
+//                 case 4:
+//                     alert("Insuficiente");
+//                     break;
+//             case 5:
+//                 case 6:
+//                     alert("Suficiente");
+//                     break;
+//             case 7:
+//                 case 8:
+//                     alert("Bien");
+//                     break;
+//             case 9:
+//                 alert("Notable");
+//                 break;
+//             case 10:
+//                 alert("Sobresaliente");
+//                 break;
+//             default:
+//                 alert("Número erróneo");                                               
+//         }
+//         } else {
+//             alert("Introduce un número válido");
         
-        } 
-} while (confirm("¿Desea continuar?"));
+//         } 
+// } while (confirm("¿Desea continuar?"));
 //!---------------------------------------------------------------------------------------------------------------------------------------------
 // Dificultad:  🟢🟡
  
 // 3- Realiza un script que pida cadenas de texto  hasta que se pulse “cancelar”. Al salir con “cancelar” deben mostrarse todas las cadenas concatenadas con un guión -.
+ let respuesta = "";
+
+do {
+    let cadena = prompt("ingrese una cadenas de texto").toLocaleUpperCase();
+console.log(cadena);
+  if (cadena == "") { 
+    respuesta = cadena ;
+    } else {
+        respuesta += "-." + cadena
+    }
+} while (confirm('continuar?'));
 
 // Nota: usar confirm() https://www.w3schools.com/jsref/met_win_confirm.asp}
 
