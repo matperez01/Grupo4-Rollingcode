@@ -227,15 +227,15 @@ let respuesta = "";
 // 55555
 // 666666
 
-for (let i=1; i <= 30; i++)
-{
- for (let j=0 ; j < i ; j++)
- {
-    document.write(i)
-    document.write("<br>")
- }
+// for (let i=1; i <= 30; i++)
+// {
+//  for (let j=0 ; j < i ; j++)
+//  {
+//     document.write(i)
+//     document.write("<br>")
+//  }
            
-}
+// }
 // 7- Haz un script que escriba una pirámide inversa de los números del 1 al número que indique el usuario (no mayor de 50)  de la siguiente forma : (suponiendo que indica 30).
 
 // 303030303030303030303030303030303030303030303030303030303030
@@ -246,15 +246,15 @@ for (let i=1; i <= 30; i++)
 // 22
 // 1
 
-for (let i=30; i >= 1; i--)
- {
-    for (let j=0 ; j < i ; j++)
-    {
-        document.write(i)
-        document.write("<br>")
-    }
+// for (let i=30; i >= 1; i--)
+//  {
+//     for (let j=0 ; j < i ; j++)
+//     {
+//         document.write(i)
+//         document.write("<br>")
+//     }
             
-}
+// }
 
 
 // Dificultad:  🟢🟡
