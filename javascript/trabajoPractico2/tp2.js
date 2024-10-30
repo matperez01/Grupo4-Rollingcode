@@ -2,8 +2,10 @@
 // Dificultad:  🟢
 
 // 1- Escribir un programa que solicite la edad y si es mayor de 18 años mostrar un mensaje que ya puede conducir, si la edad ingresada no es un número válido indicarlo en un mensaje.
-// Dificultad:  🟢🟡
 
+
+
+// Dificultad:  🟢🟡
 // 2- Escribir un programa que solicite una nota (número) de 0  a 10. Luego mostrar la calificación en un alert según los siguientes rangos de nota:
 
 // 0-2: Muy deficiente
@@ -16,9 +18,6 @@
 // Si ingreso un número que no esté dentro del rango de 0 a 10 mostrar un mensaje de “número erróneo”. Si el número ingresado no es válido mostrar el mensaje “Introduce un número válido”.
 
 // Ejemplo:
-
-
-
 // Input: 5
 // Input: 50
 // Input: hola10
@@ -27,9 +26,59 @@
 // Output: Introduce un número válido
 
 
+
+// do{
+// let nota = parseInt(prompt("ingrese un numero entre 0 y 10"));
+
+//     if (!isNaN(nota)){
+
+//         switch (nota) {
+//             case 0:
+//                 case 1:
+//                 case 2:
+//                     alert("Muy deficiente");
+//                     break;
+//             case 3:
+//                 case 4:
+//                     alert("Insuficiente");
+//                     break;
+//             case 5:
+//                 case 6:
+//                     alert("Suficiente");
+//                     break;
+//             case 7:
+//                 case 8:
+//                     alert("Bien");
+//                     break;
+//             case 9:
+//                 alert("Notable");
+//                 break;
+//             case 10:
+//                 alert("Sobresaliente");
+//                 break;
+//             default:
+//                 alert("Número erróneo");                                               
+//         }
+//         } else {
+//             alert("Introduce un número válido");
+        
+//         } 
+// } while (confirm("¿Desea continuar?"));
+//!---------------------------------------------------------------------------------------------------------------------------------------------
 // Dificultad:  🟢🟡
  
 // 3- Realiza un script que pida cadenas de texto  hasta que se pulse “cancelar”. Al salir con “cancelar” deben mostrarse todas las cadenas concatenadas con un guión -.
+ let respuesta = "";
+
+do {
+    let cadena = prompt("ingrese una cadenas de texto").toLocaleUpperCase();
+console.log(cadena);
+  if (cadena == "") { 
+    respuesta = cadena ;
+    } else {
+        respuesta += "-." + cadena
+    }
+} while (confirm('continuar?'));
 
 // Nota: usar confirm() https://www.w3schools.com/jsref/met_win_confirm.asp}
 
@@ -140,5 +189,3 @@
 // Input: Hola mundo
 
 // Output: la vocal ‘o’ está en la posición 1
-
-
