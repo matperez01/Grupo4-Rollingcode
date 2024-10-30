@@ -73,8 +73,3 @@
 // input: 210
 // Output: El 20 es divisible por 2 y por 5.
 // Output: El 210 es divisible por 2, por 3, por 5 y por 7.
-
-
-
-
-
