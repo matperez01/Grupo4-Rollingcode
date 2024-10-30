@@ -246,12 +246,15 @@ for (let i=1; i <= 30; i++)
 // 22
 // 1
 
-    // for (let i=30; i >= 1; i--)
-    //     {
-    //         for (let j=0 ; j < i ; j++)
-    //             document.write(i)
-    //             document.write("<br>")
-    //     }
+for (let i=30; i >= 1; i--)
+ {
+    for (let j=0 ; j < i ; j++)
+    {
+        document.write(i)
+        document.write("<br>")
+    }
+            
+}
 
 
 // Dificultad:  🟢🟡
