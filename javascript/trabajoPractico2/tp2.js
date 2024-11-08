@@ -27,43 +27,43 @@
 
 
 
-do{
-let nota = parseInt(prompt("ingrese un numero entre 0 y 10"));
+// do{
+// let nota = parseInt(prompt("ingrese un numero entre 0 y 10"));
 
-    if (!isNaN(nota)){
+//     if (!isNaN(nota)){
 
-        switch (nota) {
-            case 0:
-                case 1:
-                case 2:
-                    alert("Muy deficiente");
-                    break;
-            case 3:
-                case 4:
-                    alert("Insuficiente");
-                    break;
-            case 5:
-                case 6:
-                    alert("Suficiente");
-                    break;
-            case 7:
-                case 8:
-                    alert("Bien");
-                    break;
-            case 9:
-                alert("Notable");
-                break;
-            case 10:
-                alert("Sobresaliente");
-                break;
-            default:
-                alert("Número erróneo");                                               
-        }
-        } else {
-            alert("Introduce un número válido");
+//         switch (nota) {
+//             case 0:
+//                 case 1:
+//                 case 2:
+//                     alert("Muy deficiente");
+//                     break;
+//             case 3:
+//                 case 4:
+//                     alert("Insuficiente");
+//                     break;
+//             case 5:
+//                 case 6:
+//                     alert("Suficiente");
+//                     break;
+//             case 7:
+//                 case 8:
+//                     alert("Bien");
+//                     break;
+//             case 9:
+//                 alert("Notable");
+//                 break;
+//             case 10:
+//                 alert("Sobresaliente");
+//                 break;
+//             default:
+//                 alert("Número erróneo");                                               
+//         }
+//         } else {
+//             alert("Introduce un número válido");
         
-        }
-    } while (confirm("¿Desea continuar?"));
+//         }
+//     } while (confirm("¿Desea continuar?"));
 //!---------------------------------------------------------------------------------------------------------------------------------------------
 // Dificultad:  🟢🟡
  
@@ -139,6 +139,23 @@ let nota = parseInt(prompt("ingrese un numero entre 0 y 10"));
 // 8 (Múltiplo de 4)
 // 9 (Múltiplo de 9)
 // 10
+
+
+for (let i = 1; i <= 500; i++) {
+    if(i % 4 == 0){
+     document.write(`${i} es multiplo de 4`);
+     }
+    if (i% 9 == 0) {
+        document.write(`${i } es multiplo de 9`);
+    }
+    document.write("<br>")
+    if(i % 5 == 0);{
+        document.write("<hr>");
+    }
+
+    
+}
+
 
 // Dificultad:  🟢🟡🔴
 // 10- Realiza un script que pida número de filas y columnas y escriba una tabla. Dentro de cada una de las celdas deberá escribirse un número consecutivo en orden descendente. Si, por ejemplo, la tabla es de 7×5 los números irán del 35 al 1.
