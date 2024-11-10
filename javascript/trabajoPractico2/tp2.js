@@ -141,20 +141,20 @@
 // 10
 
 
-for (let i = 1; i <= 500; i++) {
-    if(i % 4 == 0){
-     document.write(`${i} es multiplo de 4`);
-     }
-    if (i% 9 == 0) {
-        document.write(`${i } es multiplo de 9`);
-    }
-    document.write("<br>")
-    if(i % 5 == 0);{
-        document.write("<hr>");
-    }
+// for (let i = 1; i <= 500; i++) {
+//     if(i % 4 == 0){
+//      document.write(`${i} es multiplo de 4`);
+//      }
+//     if (i% 9 == 0) {
+//         document.write(`${i } es multiplo de 9`);
+//     }
+//     document.write("<br>")
+//     if(i % 5 == 0);{
+//         document.write("<hr>");
+//     }
 
     
-}
+// }
 
 
 // Dificultad:  🟢🟡🔴
@@ -189,7 +189,6 @@ for (let i = 1; i <= 500; i++) {
 // 17- Realiza un script que muestre la posición de la primera vocal de un texto introducido por teclado.
 
 // Ejemplo:
-
 
 
 // Input: Hola mundo
