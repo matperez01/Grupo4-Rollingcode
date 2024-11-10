@@ -190,7 +190,6 @@
 
 // Ejemplo:
 
-
 // Input: Hola mundo
 
 // Output: la vocal ‘o’ está en la posición 1
