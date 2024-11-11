@@ -268,18 +268,18 @@ let respuesta = "";
 // 123456
 // ……
 
-let numero= parseInt(prompt("ingrese un numero: "))
-    if (!isNaN (numero) && numero < 50){
+// let numero= parseInt(prompt("ingrese un numero: "))
+//     if (!isNaN (numero) && numero < 50){
       
-        for (let i= 1; i <= numero; i++)
-            {
-                for (let j=1 ; j < i ; j++)
-                    document.write(j)
-                    document.write("<br>")
-            }
-    }else{
-        alert("pone un numero menor a 50")
-    }
+//         for (let i= 1; i <= numero; i++)
+//             {
+//                 for (let j=1 ; j < i ; j++)
+//                     document.write(j)
+//                     document.write("<br>")
+//             }
+//     }else{
+//         alert("pone un numero menor a 50")
+//     }
 // Dificultad:  🟢🟡🔴
 // 9- Crea un script que escriba los números del 1 al 500, que indique cuáles son múltiplos de 4 y de 9 y que cada 5 líneas muestre una línea horizontal. Por ejemplo :
 
@@ -295,8 +295,22 @@ let numero= parseInt(prompt("ingrese un numero: "))
 // 8 (Múltiplo de 4)
 // 9 (Múltiplo de 9)
 // 10
+let num = 500;
 
+for (let i = 1; i <= num.length; i++) {
+    if(i % 4 == 0){
+     document.write(`${i} es multiplo de 4`);
+     }
+    if (i% 9 == 0) {
+        document.write(`${i } es multiplo de 9`);
+    }
+    // document.write("<br>")
+    if(i % 5 == 0);{
+        document.write("<hr>");
+    }
 
+    
+}
 
 
 
