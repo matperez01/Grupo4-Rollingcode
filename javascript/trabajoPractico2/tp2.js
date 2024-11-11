@@ -61,12 +61,12 @@
 //         }
 //         } else {
 //             alert("Introduce un número válido");
-        
+
 //         } 
 // } while (confirm("¿Desea continuar?"));
 //!---------------------------------------------------------------------------------------------------------------------------------------------
 // Dificultad:  🟢🟡
- 
+
 // 3- Realiza un script que pida cadenas de texto  hasta que se pulse “cancelar”. Al salir con “cancelar” deben mostrarse todas las cadenas concatenadas con un guión -.
 //  let respuesta = "";
 
@@ -98,11 +98,123 @@
 // Deberá de repetirse el proceso hasta que el usuario pulse «cancelar».
 
 // Ejemplo: 
-
-    
-
 // Input:  40773821 
 // Output: ‘L’
+
+// do {
+//     let dni = parseInt(prompt(`ingrese un dni: `));
+//     if (!isNaN(dni)) {
+//        if (dni >= 0 && dni < 99999999) 
+//            {
+//            let valordiv = dni % 23
+//            switch (valordiv) {
+//                case 0:
+//                   alert("la letra asignadada es: T");
+//                     break;
+
+//                 case 1:
+//                     alert("la letra asignadada es: R");
+//                     break;
+
+//                 case 2:
+//                     alert("la letra asignadada es: W");
+//                     break;
+
+//                 case 3:
+//                     alert("la letra asignadada es: A");
+//                     break;
+
+//                 case 4:
+//                     alert("la letra asignadada es: G");
+//                     break;
+
+//                 case 5:
+//                     alert("la letra asignadada es: M");
+//                     break;
+
+//                 case 6:
+//                     alert("la letra asignadada es: Y");
+//                     break;
+
+//                 case 7:
+//                     alert("la letra asignadada es: F");
+//                     break;
+
+//                 case 8:
+//                     alert("la letra asignadada es: P");
+//                     break;
+
+//                 case 9:
+//                     alert("la letra asignadada es: D");
+//                     break;
+
+//                 case 10:
+//                     alert("la letra asignadada es: X");
+//                     break;
+
+//                 case 11:
+//                     alert("la letra asignadada es: B");
+//                     break;
+
+//                 case 12:
+//                     alert("la letra asignadada es: N");
+//                     break;
+
+//                 case 13:
+//                     alert("la letra asignadada es: J");
+//                     break;
+
+//                 case 14:
+//                     alert("la letra asignadada es: Z");
+//                     break;
+
+//                 case 15:
+//                     alert("la letra asignadada es: S");
+//                     break;
+
+//                 case 16:
+//                     alert("la letra asignadada es: Q");
+//                     break;
+
+//                 case 17:
+//                     alert("la letra asignadada es: V");
+//                     break;
+
+//                 case 18:
+//                     alert("la letra asignadada es: H");
+//                     break;
+
+//                 case 19:
+//                     alert("la letra asignadada es: L");
+//                     break;
+//                 case 20:
+//                     alert("la letra asignadada es: C");
+//                     break;
+
+//                 case 21:
+//                     alert("la letra asignadada es: K");
+//                     break;
+
+//                 case 22:
+//                     alert("la letra asignadada es: E");
+//                     break;
+
+//                 default:
+//                  alert("Número erróneo"); 
+
+//             }
+
+//         }else{alert("ingrese cantidad de numeros validos ")} 
+//     }
+// } while (confirm ("¿Desea continuar?"));
+
+
+
+
+
+
+
+
 
 
 // Dificultad:  🟢🟡
@@ -115,7 +227,15 @@
 // 55555
 // 666666
 
-
+// for (let i=1; i <= 30; i++)
+// {
+//  for (let j=0 ; j < i ; j++)
+//  {
+//     document.write(i)
+//     document.write("<br>")
+//  }
+           
+// }
 // 7- Haz un script que escriba una pirámide inversa de los números del 1 al número que indique el usuario (no mayor de 50)  de la siguiente forma : (suponiendo que indica 30).
 
 // 303030303030303030303030303030303030303030303030303030303030
@@ -126,8 +246,19 @@
 // 22
 // 1
 
+// for (let i=30; i >= 1; i--)
+//  {
+//     for (let j=0 ; j < i ; j++)
+//     {
+//         document.write(i)
+//         document.write("<br>")
+//     }
+            
+// }
+
+
 // Dificultad:  🟢🟡
-// 8- Crea script para generar pirámide siguiente con los números del 1 al número que indique el usuario (no mayor de 50) 
+// 8- Crea script para generar pirámide siguiente con los números del 1 al número que indique el usuario (no mayor de 50)
 
 // 1
 // 12
@@ -136,6 +267,19 @@
 // 12345
 // 123456
 // ……
+
+// let numero= parseInt(prompt("ingrese un numero: "))
+//     if (!isNaN (numero) && numero < 50){
+      
+//         for (let i= 1; i <= numero; i++)
+//             {
+//                 for (let j=1 ; j < i ; j++)
+//                     document.write(j)
+//                     document.write("<br>")
+//             }
+//     }else{
+//         alert("pone un numero menor a 50")
+//     }
 // Dificultad:  🟢🟡🔴
 // 9- Crea un script que escriba los números del 1 al 500, que indique cuáles son múltiplos de 4 y de 9 y que cada 5 líneas muestre una línea horizontal. Por ejemplo :
 
@@ -152,9 +296,14 @@
 // 9 (Múltiplo de 9)
 // 10
 
+
+
+
+
 // Dificultad:  🟢🟡🔴
 // 10- Realiza un script que pida número de filas y columnas y escriba una tabla. Dentro de cada una de las celdas deberá escribirse un número consecutivo en orden descendente. Si, por ejemplo, la tabla es de 7×5 los números irán del 35 al 1.
-// let filas = parseInt(prompt('Ingrese un numero de filas'));
+
+//let filas = parseInt(prompt('Ingrese un numero de filas'));
 // let columnas = parseInt(prompt('Ingrese un numero de columnas'));
 
 // let total = filas * columnas;
