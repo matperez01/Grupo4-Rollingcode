@@ -126,6 +126,24 @@
 // Ejercicios con Math
 // Dificultad:  🟢🟡
 
+let filas = parseInt(prompt('Ingrese un numero de filas'));
+let columnas = parseInt(prompt('Ingrese un numero de columnas'));
+// total valor para cargar las celdas de la tabla
+let total = filas * columnas;
+
+document.write('<table border>');
+for(let indiceFila=0; indiceFila < filas; indiceFila++){
+    // aqui dibujo la fila
+    document.write('<tr>');
+    // dibujar las celdas
+    for(let indiceColumna=0; indiceColumna< columnas; indiceColumna++){
+        document.write('<td>'+total+'</td>');
+         total--; //total = total-1;
+    }
+    document.write('</tr>');
+}
+document.write('</table>');
+
 //? 11- Realiza un script que pida por teclado 3 edades y 3 nombres e indique el nombre del mayor. *
 // Nota: ver funcion Math() https://www.w3schools.com/js/js_math.asp
 // Dificultad:  🟢🟡
