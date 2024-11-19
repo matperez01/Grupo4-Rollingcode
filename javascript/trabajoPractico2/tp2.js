@@ -68,13 +68,13 @@
 // Dificultad:  🟢🟡
 
 // 3- Realiza un script que pida cadenas de texto  hasta que se pulse “cancelar”. Al salir con “cancelar” deben mostrarse todas las cadenas concatenadas con un guión -.
-let respuesta = "";
+//  let respuesta = "";
 
 // do {
 //     let cadena = prompt("ingrese una cadenas de texto").toLocaleUpperCase();
-//     console.log(cadena);
-//     if (cadena == "") {
-//         respuesta = cadena;
+// console.log(cadena);
+//   if (cadena == "") { 
+//     respuesta = cadena ;
 //     } else {
 //         respuesta += "-." + cadena
 //     }
@@ -268,18 +268,18 @@ let respuesta = "";
 // 123456
 // ……
 
-let numero= parseInt(prompt("ingrese un numero: "))
-    if (!isNaN (numero) && numero < 50){
+// let numero= parseInt(prompt("ingrese un numero: "))
+//     if (!isNaN (numero) && numero < 50){
       
-        for (let i= 1; i <= numero; i++)
-            {
-                for (let j=1 ; j < i ; j++)
-                    document.write(j)
-                    document.write("<br>")
-            }
-    }else{
-        alert("pone un numero menor a 50")
-    }
+//         for (let i= 1; i <= numero; i++)
+//             {
+//                 for (let j=1 ; j < i ; j++)
+//                     document.write(j)
+//                     document.write("<br>")
+//             }
+//     }else{
+//         alert("pone un numero menor a 50")
+//     }
 // Dificultad:  🟢🟡🔴
 // 9- Crea un script que escriba los números del 1 al 500, que indique cuáles son múltiplos de 4 y de 9 y que cada 5 líneas muestre una línea horizontal. Por ejemplo :
 
@@ -302,6 +302,28 @@ let numero= parseInt(prompt("ingrese un numero: "))
 
 // Dificultad:  🟢🟡🔴
 // 10- Realiza un script que pida número de filas y columnas y escriba una tabla. Dentro de cada una de las celdas deberá escribirse un número consecutivo en orden descendente. Si, por ejemplo, la tabla es de 7×5 los números irán del 35 al 1.
+
+//let filas = parseInt(prompt('Ingrese un numero de filas'));
+// let columnas = parseInt(prompt('Ingrese un numero de columnas'));
+
+// let total = filas * columnas;
+
+// document.write('<table border>');
+// for(let indiceFila=0; indiceFila < filas; indiceFila++){
+
+//     document.write('<tr>');
+
+//     for(let indiceColumna=0; indiceColumna< columnas; indiceColumna++){
+//         document.write('<td>'+total+'</td>');
+//          total--; 
+//     }
+//     document.write('</tr>');
+// }
+// document.write('</table>');
+    
+
+
+   
 
 // Ejercicios con Math
 
@@ -332,6 +354,20 @@ let numero= parseInt(prompt("ingrese un numero: "))
 // 17- Realiza un script que muestre la posición de la primera vocal de un texto introducido por teclado.
 
 // Ejemplo:
+let mensaje = prompt("ingrise su texto").trim().toLowerCase();
+
+for (let t = 0; t < mensaje.length; t++) {
+
+    const element = mensaje[t];
+    
+    if(element == "a" || element== "e" || element == "i" || element == "o" || element == "u") {
+        
+        console.log(`la vocal "${element}" está en la posición "${t}"`);
+        break;
+    
+    }
+  
+}
 
 
 
