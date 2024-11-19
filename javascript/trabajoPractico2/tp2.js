@@ -295,28 +295,52 @@
 // 8 (Múltiplo de 4)
 // 9 (Múltiplo de 9)
 // 10
-let num = 500;
+// let num = 500;
 
-for (let i = 1; i <= num.length; i++) {
-    if(i % 4 == 0){
-     document.write(`${i} es multiplo de 4`);
-     }
-    if (i% 9 == 0) {
-        document.write(`${i } es multiplo de 9`);
-    }
-    // document.write("<br>")
-    if(i % 5 == 0);{
-        document.write("<hr>");
-    }
+// for (let i = 1; i <= num.length; i++) {
+//     if(i % 4 == 0){
+//      document.write(`${i} es multiplo de 4`);
+//      }
+//     if (i% 9 == 0) {
+//         document.write(`${i } es multiplo de 9`);
+//     }
+//     // document.write("<br>")
+//     if(i % 5 == 0);{
+//         document.write("<hr>");
+//     }
+// }
+let nombre1 = prompt("ingresar nombre 1")
+let nombre2 = prompt("ingresar nombre 2")
+let nombre3 = prompt("ingresar nombre 3")
 
-    
+let edad1 = parseInt(prompt("ingresar edad 1"))
+let edad2 = parseInt(prompt("ingresar edad 2"))
+let edad3 = parseInt(prompt("ingresar edad 3"))
+
+let mayor = console.log(Math.max(edad1, edad2, edad3))
+
+if (edad1 == mayor)
+{
+    console.log(`${nombre1} es el mayor`)
+}
+else if(edad2 == mayor)
+{
+    console.log(`${nombre2} es el mayor`)
 }
 
+else if (edad3 == mayor){
+    console.log(`${nombre3} es el mayor`)
+}
+else {
+    console.log("los tres tiene la misma edad");
+    
+}
+console.log( nombre1.toUpperCase);
 
 
 // Dificultad:  🟢🟡🔴
 // 10- Realiza un script que pida número de filas y columnas y escriba una tabla. Dentro de cada una de las celdas deberá escribirse un número consecutivo en orden descendente. Si, por ejemplo, la tabla es de 7×5 los números irán del 35 al 1.
-let filas = prompt("ingrese cantidad de fila");
+// let filas = prompt("ingrese cantidad de fila");
 
 //let filas = parseInt(prompt('Ingrese un numero de filas'));
 // let columnas = parseInt(prompt('Ingrese un numero de columnas'));
