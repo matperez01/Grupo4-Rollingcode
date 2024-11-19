@@ -153,12 +153,6 @@ let mayor = console.log(Math.max(edad1, edad2, edad3))
 // Ejercicios con String
 // Dificultad:  🟢🟡
 
-// const random = Math.floor(Math.random() * 99) + 1;
-// console.log(random)
-//? 13- Realiza un script que pida un texto y lo muestre en mayúsculas.
-// Dificultad:  🟢🟡
-
-
 
 //? 14- Realiza un script que pida una cadena de texto y lo muestre poniendo el signo – entre cada carácter sin usar el método replace. Por ejemplo, si tecleo “hola qué tal”, deberá salir “h-o-l-a- -q-u-e- -t-a-l”.
 // Dificultad:  🟢🟡
