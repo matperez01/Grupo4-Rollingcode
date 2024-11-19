@@ -134,6 +134,9 @@
 // Ejercicios con String
 // Dificultad:  🟢🟡
 
+    const random = Math.floor(Math.random() * 99) + 1;
+    console.log(random)
+
 //? 13- Realiza un script que pida un texto y lo muestre en mayúsculas.
 // Dificultad:  🟢🟡
     let texto = prompt("ingresa una palabra")
