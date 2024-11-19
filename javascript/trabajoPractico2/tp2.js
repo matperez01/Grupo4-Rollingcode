@@ -393,6 +393,20 @@ console.log( nombre1.toUpperCase);
 // 17- Realiza un script que muestre la posición de la primera vocal de un texto introducido por teclado.
 
 // Ejemplo:
+let mensaje = prompt("ingrise su texto").trim().toLowerCase();
+
+for (let t = 0; t < mensaje.length; t++) {
+
+    const element = mensaje[t];
+    
+    if(element == "a" || element== "e" || element == "i" || element == "o" || element == "u") {
+        
+        console.log(`la vocal "${element}" está en la posición "${t}"`);
+        break;
+    
+    }
+  
+}
 
 
 

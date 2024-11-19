@@ -126,16 +126,33 @@
 // Ejercicios con Math
 // Dificultad:  🟢🟡
 
+
 //? 11- Realiza un script que pida por teclado 3 edades y 3 nombres e indique el nombre del mayor. *
 // Nota: ver funcion Math() https://www.w3schools.com/js/js_math.asp
 // Dificultad:  🟢🟡
+    
+let nombre1 = prompt("ingresar nombre 1")
+let nombre2 = prompt("ingresar nombre 2")
+let nombre3 = prompt("ingresar nombre 3")
+
+let edad1 = parseInt(prompt("ingresar edad 1"))
+ let edad2 = parseInt(prompt("ingresar edad 2"))
+let edad3 = parseInt(prompt("ingresar edad 3"))
+
+let mayor = console.log(Math.max(edad1, edad2, edad3))
+
+ if (edad1 == mayor)
+ { console.log(`${nombre1} es el mayor`)}
+ 
+ else if(edad2 == mayor)
+{  console.log(`${nombre2} es el mayor`) }
+
+ else{ console.log(`${nombre3} es el mayor`)}
 
 //? 12- Realiza un script que genere un número aleatorio entre 1 y 99
 // Ejercicios con String
 // Dificultad:  🟢🟡
 
-//? 13- Realiza un script que pida un texto y lo muestre en mayúsculas.
-// Dificultad:  🟢🟡
 
 //? 14- Realiza un script que pida una cadena de texto y lo muestre poniendo el signo – entre cada carácter sin usar el método replace. Por ejemplo, si tecleo “hola qué tal”, deberá salir “h-o-l-a- -q-u-e- -t-a-l”.
 // Dificultad:  🟢🟡
