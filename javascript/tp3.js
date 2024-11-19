@@ -1,6 +1,15 @@
 //! 1- Crear un array llamado meses y que almacene el nombre de los doce meses del año. Mostrar por pantalla en forma de lista los doce nombres del arreglo.
 
 //? Output (assets output):
+let mes = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+
+
+document.write("<ul>");
+for (let i = 0; i < mes.length; i++) { 
+  document.write(`<li>${mes[i]}</li>`);
+}
+document.write("</ul>"); // Cerrar la lista
+
 
 // Dificultad:  🟢🟡
 //! 2-  Crear un script que solicite al usuario mediante un prompt el nombre de ciudades y almacenarlas en un arreglo, cuando el usuario selecciona cancelar se debe mostrar el arreglo generado, luego realizar las siguientes acciones:
