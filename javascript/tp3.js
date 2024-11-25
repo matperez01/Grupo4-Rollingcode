@@ -1,18 +1,19 @@
 //! 1- Crear un array llamado meses y que almacene el nombre de los doce meses del año. Mostrar por pantalla en forma de lista los doce nombres del arreglo.
 
-//? Output (assets output):
-let mes = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+// //? Output (assets output):
+// let mes = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
 
 
-document.write("<ul>");
-for (let i = 0; i < mes.length; i++) { 
-  document.write(`<li>${mes[i]}</li>`);
-}
-document.write("</ul>"); // Cerrar la lista
+// document.write("<ul>");
+// for (let i = 0; i < mes.length; i++) { 
+//   document.write(`<li>${mes[i]}</li>`);
+// }
+// document.write("</ul>"); // Cerrar la lista
 
 
 // Dificultad:  🟢🟡
 //! 2-  Crear un script que solicite al usuario mediante un prompt el nombre de ciudades y almacenarlas en un arreglo, cuando el usuario selecciona cancelar se debe mostrar el arreglo generado, luego realizar las siguientes acciones:
+
 
 // Mostrar la longitud del arreglo.
 // Mostrar en el documento web los ítems de las posiciones primera, tercera y última.
@@ -24,6 +25,53 @@ document.write("</ul>"); // Cerrar la lista
 // Input:
 // [‘Nueva York, Estados Unidos’, ‘Barcelona, España’, ‘Tokio, Japón’, ‘Londres, Reino Unido’, ‘Roma, Italia’, ‘Pekín, China’, ‘Río de Janeiro, Brasil’, ‘Ámsterdam, Países Bajos’, ‘Sídney, Australia’, ‘El Cairo, Egipto’]
 //? Output (assets output2):
+
+
+let users = [];
+let indicador = true;
+
+do {
+    let mens = prompt("ingrese nombre de ciudades");
+    if (mens === null) {
+        indicador = false;
+    }
+    else {
+        users.push(mens);
+       
+    }
+   
+   
+    
+}
+  while (indicador);
+console.log(users);
+
+document.write(
+  `<p>la cantaded de elemento el array ${users.length}</p>`
+);
+
+document.write(`<ul>
+<li>Elemento 1er posicion: ${users[0]} </li>
+<li>Elemento 3er posicion: ${users[2]} </li>
+<li>Elemento ultima posicion: ${users[users.length - 1]}  </li>
+</ul>`);
+
+
+users.push("Paris");
+
+document.write(`<ul>
+<li>Elemento 2da posicion: ${users[1]} </li>
+</ul>`);
+
+users.splice(1, 0, "Barcelona");
+
+document.write(`<h1>Arreglo de ciudades</h1>`);
+document.write(`<ul>`);
+for (let i = 0; i < users.length; i++) {
+  document.write(`<li>Elemento: ${users[i]} </li>`);
+}
+document.write(`</ul>`);
+
 
 
 // Dificultad:  🟢🟡🔴
